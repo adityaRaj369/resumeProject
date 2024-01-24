@@ -88,7 +88,7 @@ body{
     height:auto;
     width:100%;
 }
-#my-image{
+/* #my-image{
     height: 12rem;
     width: 12rem;
     margin:auto;
@@ -107,9 +107,32 @@ body{
     box-shadow: 0px 0px 6px 4px #fff2cc;
     display:flex;
     flex-wrap:wrap;
+} */
+#my-image {
+    height: 12rem;
+    width: 12rem;
+    margin-top: -160px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
-#about-para{
-    text-align: center;
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0px 0px 6px 4px #fff2cc;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about-para {
+    text-align: justify;
+    max-width: 1500px; 
+    margin: 0 auto;
+    opacity: 0.8; 
 }
 
 
@@ -122,6 +145,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 section:nth-child(2n) {
@@ -136,6 +160,7 @@ section:nth-child(2n + 1) {
     width: auto;
     padding: 20px 10px 10px;
     font-weight: 400;
+    
 }
 
 .section-heading span {
@@ -160,6 +185,7 @@ section:nth-child(2n + 1) {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
 }
 
 .skill-progress {
@@ -192,6 +218,7 @@ section:nth-child(2n + 1) {
     padding: 0 50px;
     margin-bottom: 20px;
     justify-content: space-around;
+    
 }
 
 .portfolio-image-container {
@@ -253,7 +280,7 @@ section:nth-child(2n + 1) {
 }
 
 .mb-orange {
-    background-color: #ec4d1c;
+    background-color:  #dab10e;
 }
 
 .mb-teal {
@@ -262,6 +289,9 @@ section:nth-child(2n + 1) {
 
 .mb-light-purple {
     background-color: #93738c;
+}
+.mb-te{
+    background-color: #ec4d1c;
 }
 
 
@@ -281,4 +311,8 @@ section:nth-child(2n + 1) {
 .fifty-percent {
     height: inherit;
     width: 50%;
+}
+.seventy-percent{
+    height: inherit;
+    width: 72%;
 }
