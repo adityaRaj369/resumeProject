@@ -2,6 +2,7 @@ body{
     margin: 0px;
     font-family: sans-serif;
     font-size: 30px;
+    
 }
 /* .paragraph :: first-lin{
       font-size: 1rem;
@@ -75,6 +76,7 @@ body{
 
 .social-icons li a iconify-icon:hover{
     box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+    transition: 0.5s ease-in-out;
 }
 .social-icons li a iconify-icon:hover{
     box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
@@ -130,8 +132,11 @@ body{
     box-shadow: 0px 0px 6px 4px #fff2cc;
     display: flex;
     flex-wrap: wrap;
+    transition: 1s ease-in-out;
 }
-
+#my-image img:hover{
+  transform:scale(1.5);
+}
 #about-para {
     text-align: justify;
     max-width: 1500px; 
@@ -326,6 +331,7 @@ section:target{
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    
 }
 
 .portfolio-image-container img {
