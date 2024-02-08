@@ -115,9 +115,9 @@ body{
     flex-wrap:wrap;
 } */
 #my-image {
-    height: 12rem;
-    width: 12rem;
-    margin-top: -160px;
+    height: 10rem;
+    width: 10rem;
+    margin-top: -100px;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
